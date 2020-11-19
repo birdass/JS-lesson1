@@ -25,14 +25,14 @@ if(age < 18) {
 
 console.log(drivinglicence);
 
-// ul  неупорядоченный список / const это переменная ее потом можно куда-либо вставить 
+// ul  неупорядоченный список / const это переменная ее потом можно куда-либо вставить / li - Список
 const html = `  
     <ul> 
-        <il> name: ${name} </il>
-        <il> age : ${age} </il>
-        <il> city: ${city} </il>
-        <il> he ${commentary} </il>
-        <il> ${drivinglicence} </il>
+        <li> name: ${name} </il>
+        <li> age : ${age} </il>
+        <li> city: ${city} </il>
+        <li> he ${commentary} </il>
+        <li> ${drivinglicence} </il>
     </ul>
 
 `;
